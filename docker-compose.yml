@@ -1,0 +1,9 @@
+version: '3'
+services:
+  webserver:
+    build:
+      context: .
+    container_name: 'haver-se-excercise'
+    restart: 'always'
+    volumes:
+      - ./output:/usr/app/output:rw
