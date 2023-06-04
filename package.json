@@ -4,7 +4,7 @@
   "description": "harver-se-exercise",
   "main": "dist/src/index.js",
   "author": "Ramesh shanilka",
-  "license": "MIT",
+  "license": "ICS",
   "scripts": {
     "dev": "nodemon --watch src/**/*.ts --exec ts-node ./src/app.ts",
     "build": "tsc",
