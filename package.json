@@ -6,7 +6,7 @@
   "author": "Ramesh shanilka",
   "license": "ICS",
   "engines": {
-    "npm": ">=8.0.0 <=9.1.1",
+    "npm": ">=7.21.0 <=9.1.1",
     "node": ">=16.0.0 <=18.12.0"
   },
   "scripts": {

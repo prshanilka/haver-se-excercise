@@ -16,9 +16,14 @@ export const saveImage = (imgBuffer: Jimp) => {
         console.log(`Error generating image ${error}`);
         return;
       }
-      const savePath = join(process.cwd(), outputFolder, `merged-image.jpg`);
+      const savePath = join(
+        process.cwd(),
+        outputFolder,
+        `merged-image-${new Date().getTime()}.jpg`,
+      );
       try {
         await fs.promises.writeFile(savePath, buffer, 'binary');
+        console.log(`Image save successfully: ${savePath}`);
       } catch (error) {
         console.log(`Error while saving the file ${error}`);
       }
