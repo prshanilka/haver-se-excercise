@@ -12,8 +12,8 @@ For development, you will only need Node.js and a node global package, npm or Ya
 
 ## Recommended Node and Npm Versions
 
-    `npm: >=8.0.0 <=9.1.1`
-    `node: >=16.0.0 <=18.12.0`
+    npm: >=8.0.0 <=9.1.1
+    node: >=16.0.0 <=18.12.0
 
 - #### Node installation on Windows
 
