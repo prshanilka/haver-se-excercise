@@ -100,4 +100,4 @@ rename `env.example` to `.env` then edit it with your settings. You will need:
 
 ## Use Docker to run this app
 
-    $ docker-compose up
+    $ docker-compose up --force-recreate
