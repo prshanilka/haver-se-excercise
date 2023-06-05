@@ -4,7 +4,7 @@
   "description": "harver-se-exercise",
   "main": "dist/src/index.js",
   "author": "Ramesh shanilka",
-  "license": "ICS",
+  "license": "ISC",
   "engines": {
     "npm": ">=7.21.0 <=9.1.1",
     "node": ">=16.0.0 <=18.12.0"
