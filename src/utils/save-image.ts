@@ -23,7 +23,7 @@ export const saveImage = (imgBuffer: Jimp) => {
       );
       try {
         await fs.promises.writeFile(savePath, buffer, 'binary');
-        console.log(`Image save successfully: ${savePath}`);
+        console.log(`Image saved successfully: ${savePath}`);
       } catch (error) {
         console.log(`Error while saving the file ${error}`);
       }
