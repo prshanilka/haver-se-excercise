@@ -10,3 +10,5 @@ yarn-error.log
 .vscode
 #coverage
 coverage
+#packege lock
+package-lock.json
