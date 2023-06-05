@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios, { AxiosResponse } from 'axios';
 import { config } from '../config';
 import { IRequestGenerator } from 'types';
 
@@ -13,7 +13,7 @@ export const generateRequest = ({
   height,
   color,
   size,
-}: IRequestGenerator) => {
+}: IRequestGenerator): Promise<AxiosResponse<ArrayBuffer>> => {
   return axios.get(`${config.baseUrl}\\${imageText}`, {
     responseType: 'arraybuffer',
     params: {

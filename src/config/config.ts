@@ -1,5 +1,6 @@
 import * as dotenv from 'dotenv';
 import { IConfig } from 'types';
+
 dotenv.config();
 
 export const config: IConfig = {

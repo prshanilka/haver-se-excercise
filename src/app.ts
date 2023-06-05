@@ -12,7 +12,7 @@ const run = async () => {
     );
     const res = await Promise.all(fetchRequests);
     const mergedImgBuffer = await mergeImages(
-      res.map((buff) => Buffer.from(buff.data, 'binary')),
+      res.map((buff) => Buffer.from(buff.data)),
     );
     saveImage(mergedImgBuffer);
   } catch (error) {
