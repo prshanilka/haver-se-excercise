@@ -1,29 +1,98 @@
-# Harver JS Exercise
+# Harver SE Exercise
 
-## Get started
+Harver SE Exercise to merge two images and save it as a image file
 
-1. Install dependencies
+---
 
-```
- npm install
-```
+## Requirements
 
-2. Build
+For development, you will only need Node.js and a node global package, npm or Yarn, installed in your environement.
 
-```
- npm run build
-```
+### Node
 
-3. run
+- #### Node installation on Windows
 
-```
- npm start
-```
+  Just go on [official Node.js website](https://nodejs.org/) and download the installer.
+  Also, be sure to have `git` available in your PATH, `npm` might need it (You can find git [here](https://git-scm.com/)).
 
-## Or (If you are using docker)
+- #### Node installation on Ubuntu
 
-1. using docker-compose
+  You can install nodejs and npm easily with apt install, just run the following commands.
 
-```
- docker-compose up
-```
+      $ sudo apt install nodejs
+      $ sudo apt install npm
+
+- #### Other Operating Systems
+  You can find more information about the installation on the [official Node.js website](https://nodejs.org/) and the [official NPM website](https://npmjs.org/).
+
+If the installation was successful, you should be able to run the following command.
+
+    $ node --version
+    v18.12.0
+
+    $ npm --version
+    9.1.1
+
+If you need to update `npm`, you can make it using `npm`! Cool right? After running the following command, just open again the command line and be happy.
+
+    $ npm install npm -g
+
+###
+
+### Yarn installation (Optional)
+
+After installing node, this project will need yarn too, so just run the following command.
+
+      $ npm install -g yarn
+
+---
+
+## Install
+
+    $ git clone https://github.com/YOUR_USERNAME/PROJECT_TITLE
+    $ cd PROJECT_TITLE
+    $ yarn install
+
+## Configure app
+
+rename `env.example` to `.env` then edit it with your settings. You will need:
+
+- BASE_URL='https://cataas.com/cat/says' #Url for image fetching
+- IMAGE_TEXT_LIST= Hello,You #Coma separated texts that needed to be in images
+- WIDTH=400 #Image width
+- HEIGHT=500 #Image Height
+- COLOR=Pink #Text color
+- SIZE=100 #Size of the Image
+- OUTPUT=output #Out put folder name
+
+## Running the project for development(NPM)
+
+    `$ npm run dev`
+
+## Running the project(NPM)
+
+    `$ npm start`
+
+## Simple build for production(NPM)
+
+    `$ npm build`
+
+### OR
+
+## Running the project for development(Yarn)
+
+    `$ yarn dev`
+
+## Running the project(Yarn)
+
+    `$ yarn start`
+
+## Simple build for production(Yarn)
+
+    `$ yarn build`
+
+### OR
+
+## Use Docker to run this app
+
+    `$ docker-compose up`
