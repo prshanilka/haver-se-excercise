@@ -10,6 +10,11 @@ For development, you will only need Node.js and a node global package, npm or Ya
 
 ### Node
 
+## Recommended Node and Npm Versions
+
+    `npm: >=8.0.0 <=9.1.1`
+    `node: >=16.0.0 <=18.12.0`
+
 - #### Node installation on Windows
 
   Just go on [official Node.js website](https://nodejs.org/) and download the installer.
@@ -67,32 +72,32 @@ rename `env.example` to `.env` then edit it with your settings. You will need:
 
 ## Running the project for development(NPM)
 
-    `$ npm run dev`
+    $ npm run dev
 
 ## Running the project(NPM)
 
-    `$ npm start`
+    $ npm start
 
 ## Simple build for production(NPM)
 
-    `$ npm build`
+    $ npm build
 
 ### OR
 
 ## Running the project for development(Yarn)
 
-    `$ yarn dev`
+    $ yarn dev
 
 ## Running the project(Yarn)
 
-    `$ yarn start`
+    $ yarn start
 
 ## Simple build for production(Yarn)
 
-    `$ yarn build`
+    $ yarn build
 
 ### OR
 
 ## Use Docker to run this app
 
-    `$ docker-compose up`
+    $ docker-compose up
